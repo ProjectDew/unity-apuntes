@@ -6,4 +6,5 @@ Esta es la lista de contenidos incluidos hasta el momento:
 
 - Parámetros de salida (out).
 - Palabra clave *static*.
+- Comunicación entre clases.
 - Corrutinas.
