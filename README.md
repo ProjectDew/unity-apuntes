@@ -5,6 +5,7 @@ Este repositorio contiene apuntes con explicaciones, ejemplos y demostraciones q
 Esta es la lista de contenidos incluidos hasta el momento:
 
 - [Bucles](/Unity_apuntes_project/Assets/Scripts/Bucles/BuclesApuntes.cs)
+- [Arrays](/Unity_apuntes_project/Assets/Scripts/Arrays/ArraysApuntes.cs)
 - [Vectores](/Unity_apuntes_project/Assets/Scripts/Vectores/VectoresApuntesVisuales.pdf)
 - [Parámetros de salida (out)](/Unity_apuntes_project/Assets/Scripts/Parámetros_Out/ParametrosOutApuntes.cs)
 - [Palabra clave *static*](/Unity_apuntes_project/Assets/Scripts/Static/StaticApuntes.cs)
