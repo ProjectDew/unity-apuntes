@@ -71,7 +71,7 @@ public class UsoDeVariablesApuntes : MonoBehaviour
 		// ----- Ahora puedes realizar los EJERCICIOS C de uso de variables -----
 		
 
-		// -------------------------------------------------- D. USAR VARIABLES (transferir datos) --------------------------------------------------
+		// -------------------------------------------------- D. USAR VARIABLES (guardar datos de una variable en otra) --------------------------------------------------
 
 
 		// Otra cosa que podemos hacer con las variables es usarlas para "transferir" datos, es decir, guardar el dato de una variable en otra distinta, de modo que las dos acaben teniendo el mismo valor
@@ -91,34 +91,48 @@ public class UsoDeVariablesApuntes : MonoBehaviour
 		Debug.Log(numeroA);	// Esto ahora muestra el número 20
 		Debug.Log(numeroB);	// Esto sigue mostrando el número 10
 
-		// Gracias a eso, podemos hacer cosas como intercambiar el valor de dos variables
-		// Por ejemplo, el número A ahora vale 20 y el número B vale 10, pero con la ayuda de una nueva variable podemos hacer que el número A tenga el valor de B y viceversa
-		// Para ello tenemos que seguir tres pasos
-
-		int numeroC = numeroA;	// [Paso 1] Creamos una nueva variable (numeroC) y guardamos en ella el número A (por tanto, el número C vale 20)
-		numeroA = numeroB;		// [Paso 2] Guardamos el número B en la variable numeroA (ahora tanto el número A como el B valen 10, mientras que el C sigue valiendo 20)
-		numeroB = numeroC;		// [Paso 3] Guardamos el número C en la variable numeroB (el número A sigue valiendo 10, pero ahora el número B vale lo mismo que C, es decir, 20)
-
-		// El resultado tras completar los tres pasos anteriores es que los valores de los números A y B se han intercambiado (antes A era 20 y B era 10, y ahora es al revés)
-		
-		Debug.Log("Mostramos las dos variables de antes con sus valores intercambiados");
-		Debug.Log(numeroA);	// Esto muestra el número 10
-		Debug.Log(numeroB); // Esto muestra el número 20
-
-		// Esto que hemos estado haciendo aquí (guardar los datos de unas variables en otras) por lo general solo es posible cuando las variables son del mismo tipo
-		// Sin embargo, si intentamos guardar un dato de tipo int o float (por ejemplo) en una variable de tipo string, nos va a dar error, porque sus tipos son diferentes
+		// Esto que acabamos de hacer de guardar el dato de una variable en otra solo es posible (en general) cuando las dos variables son del mismo tipo
+		// Si, por ejemplo, intentamos guardar un dato de tipo int o float en una variable de tipo bool nos va a dar error, porque sus tipos son diferentes (no es lo mismo un número que un booleano)
 
 		numeroReal = 3.14f;
 
 		float otroNumeroReal = numeroReal;	// Correcto: estamos guardando el dato de una variable de tipo float en otra variable que también es de tipo float
-		//string unTexto = numeroReal;		// ¡Error! No podemos guardar directamente el valor de una variable numérica en un string, porque los tipos no coinciden
+		//bool booleano = numeroReal;		// ¡Error! No podemos guardar el valor de una variable numérica en un bool, porque los tipos no coinciden
 		
 		Debug.Log("Mostramos dos variables de tipo float que tienen el mismo valor (3.14f)");
 		Debug.Log(numeroReal);
 		Debug.Log(otroNumeroReal);
+
+
+		// ----- Ahora puedes realizar los EJERCICIOS D de uso de variables -----
 		
 
-		// -------------------------------------------------- E. USAR VARIABLES (acceder a ciertas propiedades y funciones) --------------------------------------------------
+		// -------------------------------------------------- E. USAR VARIABLES (intercambiar datos de dos variables) --------------------------------------------------
+
+
+		// A modo de resumen de lo anterior:
+		//		- Es posible guardar un dato de una variable en otra, siempre que sean del mismo tipo
+		//		- Si hacemos eso, las dos variables van a tener el mismo dato guardado, pero van a seguir siendo totalmente independientes entre sí
+		// Sabiendo eso, vamos a ir un paso más allá y, en vez de simplemente guardar los datos de una variable en otra, vamos a intercambiar esos datos
+		// Para eso usaremos los dos números que tenemos arriba: A y B
+		// En este caso sabemos exactamente qué valores tiene cada número (el número A es 20 y el B es 10), pero vamos a suponer que no lo sabemos
+		// Así que, sin saber qué valor tiene cada número, tenemos que hacer que A tenga el valor de B y B tenga el valor de A
+		// Para ello tenemos que seguir tres pasos
+
+		int numeroC = numeroA;	// [Paso 1] Creamos una nueva variable (numeroC) y guardamos en ella el número A (por tanto, el número C va a ser 20)
+		numeroA = numeroB;		// [Paso 2] Guardamos el número B en la variable numeroA (ahora tanto el número A como el B son 10, pero el C es 20 todavía, porque no lo hemos cambiado)
+		numeroB = numeroC;		// [Paso 3] Por último, guardamos el número C en la variable numeroB (el número A sigue siendo 10, pero ahora el número B es el mismo que el C, es decir, 20)
+
+		// Por tanto, al completar los tres pasos anteriores el resultado es que los valores de los números A y B se han intercambiado
+		//		- Antes el número A era 20 y el B era 10
+		//		- Ahora el número A es 10 y el B es 20
+		
+		Debug.Log("Mostramos las dos variables de antes con sus valores intercambiados");
+		Debug.Log(numeroA);	// Esto muestra el número 10
+		Debug.Log(numeroB); // Esto muestra el número 20
+		
+
+		// -------------------------------------------------- F. USAR VARIABLES (acceder a ciertas propiedades y funciones) --------------------------------------------------
 
 
 		// En todas las variables, si ponemos un punto justo detras del nombre, podremos acceder a ciertas características y funcionalidades
@@ -132,7 +146,7 @@ public class UsoDeVariablesApuntes : MonoBehaviour
 		// Ahora, sin embargo, sí que estamos intentando usar ese contenido
 		// Es por eso por lo que aparece el error: estamos intentando usar algo que en realidad no existe
 
-		// Básicamente es como entrar a una tienda de golosinas, señalar a un estante vacío en una estantería completamente vacía y preguntar: "Disculpe, ¿cuántas golosinas hay en esa bolsa de ahí?"
+		// Básicamente es como entrar a una tienda de golosinas, señalar a un estante vacío de una estantería vacía y preguntar: "Disculpe, ¿cuántas golosinas hay en esa bolsa de ahí?"
 		// La persona que esté en el mostrador probablemente se quede bastante confusa, porque en ese estante que estás señalando no hay absolutamente nada, está vacío
 		// Pues eso mismo es lo que está ocurriendo en este caso: estamos preguntando cuántos caracteres hay en el texto (texto.Length), solo que... no existe ningún texto
 
@@ -148,7 +162,7 @@ public class UsoDeVariablesApuntes : MonoBehaviour
 
 	void Update()
 	{
-		// -------------------------------------------------- F. APUNTES ADICIONALES --------------------------------------------------
+		// -------------------------------------------------- G. APUNTES ADICIONALES --------------------------------------------------
 
 
 		// Las variables se declaran poniendo primero su tipo y luego su nombre, pero a la hora de usarlas se escribe tan solo el nombre y ya
