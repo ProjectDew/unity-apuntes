@@ -55,10 +55,12 @@ public class UsoDeVariablesEjerciciosB : MonoBehaviour
 	void Ejercicio3()
 	{
 		// Fíjate en los datos que hemos guardado en las siguientes variables
+
 		int numeroEntero = 0;
 		float numeroReal = 0.0f;
 		bool booleano = false;
 		string texto = null;
+
 		// Si las mostrásemos en la consola de Unity, ¿habría alguna diferencia entre estas variables y las que están al principio, justo encima de los ejercicios? (Escribe tu respuesta abajo entre las comillas)
 		// --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 		string respuesta = "";

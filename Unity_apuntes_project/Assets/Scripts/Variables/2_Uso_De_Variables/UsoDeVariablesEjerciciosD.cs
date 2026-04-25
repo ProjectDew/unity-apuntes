@@ -19,9 +19,11 @@ public class UsoDeVariablesEjerciciosD : MonoBehaviour
 	void Ejercicio1()
 	{
 		// A continuación se declaran tres variables:
+
 		float ejemploVelocidad = 6.5f;
 		bool ejemploPuedeSaltar = false;
 		string ejemploNombreEscena = "Fase 1";
+
 		// Declara la misma cantidad de variables para guardar en ellas los datos de las que están aquí arriba (cuando las tengas, muestra los datos de tus variables en la consola de Unity)
 		// --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -39,6 +41,7 @@ public class UsoDeVariablesEjerciciosD : MonoBehaviour
 	void Ejercicio3()
 	{
 		// Échale un ojo a las variables que se declaran e inicializan a continuación
+
 		int numeroA = 10;
 		int numeroB = 20;
 		int numeroC = 30;
@@ -52,7 +55,9 @@ public class UsoDeVariablesEjerciciosD : MonoBehaviour
 		int numeroL = numeroK;
 		int numeroN = numeroH;
 		int numeroO = numeroL;
+
 		// Sin consultarlo en la consola de Unity, indica cuáles son los números N y O (declara aquí abajo dos variables de tipo string, escribe en ellas tus respuestas y a continuación muéstralas en la consola de Unity)
+		// Cuando ya tengas tus respuestas escritas (¡solo cuando ya las tengas!), muestra en la consola de Unity los números N y O para compararlos con tus respuestas (si te has equivocado, intenta pensar por qué)
 		// --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 	}

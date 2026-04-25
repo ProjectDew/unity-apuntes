@@ -130,6 +130,9 @@ public class UsoDeVariablesApuntes : MonoBehaviour
 		Debug.Log("Mostramos las dos variables de antes con sus valores intercambiados");
 		Debug.Log(numeroA);	// Esto muestra el número 10
 		Debug.Log(numeroB); // Esto muestra el número 20
+
+
+		// ----- Ahora puedes realizar los EJERCICIOS E de uso de variables -----
 		
 
 		// -------------------------------------------------- F. USAR VARIABLES (acceder a ciertas propiedades y funciones) --------------------------------------------------
