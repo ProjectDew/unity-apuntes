@@ -15,6 +15,7 @@ Esta es la lista de contenidos incluidos hasta el momento:
   - [Uso de variables](/Unity_apuntes_project/Assets/Scripts/Variables/2_Uso_De_Variables)
     - [Apuntes](/Unity_apuntes_project/Assets/Scripts/Variables/2_Uso_De_Variables/UsoDeVariablesApuntes.cs)
     - [Ejercicios A](/Unity_apuntes_project/Assets/Scripts/Variables/2_Uso_De_Variables/UsoDeVariablesEjerciciosA.cs)
+    - [Ejercicios B](/Unity_apuntes_project/Assets/Scripts/Variables/2_Uso_De_Variables/UsoDeVariablesEjerciciosB.cs)
   - [Operaciones con variables](/Unity_apuntes_project/Assets/Scripts/Variables/3_Operaciones_Con_Variables/OperacionesConVariablesApuntes.cs)
 - [Bucles](/Unity_apuntes_project/Assets/Scripts/Bucles/BuclesApuntes.cs)
 - [Arrays](/Unity_apuntes_project/Assets/Scripts/Arrays/ArraysApuntes.cs)

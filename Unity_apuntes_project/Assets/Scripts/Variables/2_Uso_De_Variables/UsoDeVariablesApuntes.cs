@@ -39,9 +39,12 @@ public class UsoDeVariablesApuntes : MonoBehaviour
 
 		//Debug.Log(numeroA); // ¡Error! La variable numeroA está declarada dentro de un método, por lo que NO recibe ningún valor por defecto y, por tanto, no se puede usar hasta que se haya inicializado
 
-		numeroA = 10; // Inicializamos la variable que hemos creado dentro del método (es decir, guardamos un dato en ella)
+		numeroA = 10; // Inicializamos la variable que hemos creado dentro del método
 		
 		Debug.Log(numeroA);	// Ahora que la variable está inicializada podemos usarla sin problema
+
+
+		// ----- Ahora puedes realizar los EJERCICIOS B de uso de variables -----
 		
 
 		// -------------------------------------------------- C. USAR VARIABLES (Debug.Log) --------------------------------------------------
