@@ -200,5 +200,8 @@ public class UsoDeVariablesApuntes : MonoBehaviour
 		Debug.Log(numeroReal);	// Se muestra el número 3.14159 (al principio era 0 y en el método Awake lo cambiamos a 3.14, pero lo hemos vuelto a cambiar de nuevo aquí)
 		Debug.Log(booleano);	// Se muestra true (al principio era false, pero lo hemos cambiado aquí)
 		Debug.Log(texto);		// Se muestra la palabra "Hola" (al principio no tenía ningún valor, pero le dimos uno en el método Awake)
+
+
+		// ----- Ahora puedes realizar los EJERCICIOS G de uso de variables -----
 	}
 }
