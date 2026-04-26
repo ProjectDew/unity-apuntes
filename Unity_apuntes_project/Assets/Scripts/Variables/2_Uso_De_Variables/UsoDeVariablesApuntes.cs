@@ -138,16 +138,19 @@ public class UsoDeVariablesApuntes : MonoBehaviour
 		// -------------------------------------------------- F. USAR VARIABLES (acceder a ciertas propiedades y funciones) --------------------------------------------------
 
 
-		// En todas las variables, si ponemos un punto justo detras del nombre, podremos acceder a ciertas características y funcionalidades
+		// En todas las variables, si ponemos un punto justo detras del nombre, podremos acceder a una serie de características y funcionalidades
 		// Al hacer esto tenemos que tener especial cuidado con las variables que puedan ser nulas, porque al tener un valor de null es como si no hubiera nada en ellas
-		// Un ejemplo de eso sería la variable de tipo string que creamos al principio de este script (la que se llama texto), ya que al no estar inicializada sigue teniendo aún su valor por defecto, que es null
+		// Por ejemplo, la variable de tipo string que declaramos al principio de este script (la que se llama texto), como no está todavía inicializada, sigue teniendo su valor por defecto, que es null
 
 		//Debug.Log(texto.Length); // ¡Error! La variable texto es nula, por lo que no contiene absolutamente nada y al intentar hacer algo con ella nos aparecerá un error rojo en la consola
 
-		// Un detalle importante aquí es que, cuando hemos mostrado antes esa misma variable en la consola, no ha ocurrido ningún error, simplemente nos ha aparecido en la consola la palabra "Null"
-		// La diferencia es que antes simplemente estábamos mostrando el contenido de la variable, pero sin intentar hacer nada con ese contenido (solo mostrarlo y ya)
-		// Ahora, sin embargo, sí que estamos intentando usar ese contenido
-		// Es por eso por lo que aparece el error: estamos intentando usar algo que en realidad no existe
+		// Este error de aquí arriba no ocurre cuando lo único que queremos es mostrar la variable, como en el siguiente ejemplo
+
+		Debug.Log(texto); // Esto es perfectamente válido y correcto
+
+		// El motivo de que en un caso dé error y en otro no es que en el segundo caso NO estamos intentando usar el contenido de la variable: simplemente estamos comprobando qué es lo que hay y punto (o si hay algo o no)
+		// Así que, aunque en realidad no haya nada, no hay problema, porque lo único que va a ocurrir es que en la consola se va a mostrar un mensaje indicando que la variable es nula (es decir, que no hay nada en ella)
+		// Sin embargo, cuando sí nos va a dar un error es cuando intentamos usar el dato que hay en la variable, porque, como la variable es nula, es como si estuviéramos intentando usar algo que en realidad no existe
 
 		// Básicamente es como entrar a una tienda de golosinas, señalar a un estante vacío de una estantería vacía y preguntar: "Disculpe, ¿cuántas golosinas hay en esa bolsa de ahí?"
 		// La persona que esté en el mostrador probablemente se quede bastante confusa, porque en ese estante que estás señalando no hay absolutamente nada, está vacío
@@ -161,6 +164,9 @@ public class UsoDeVariablesApuntes : MonoBehaviour
 
 		Debug.Log("Mostramos el total de caracteres que hay en la palabra 'Hola' (4)");
 		Debug.Log(texto.Length); // Como la variable texto ya está inicializada, ha dejado de tener un valor nulo y, por tanto, podemos acceder a todas sus características y funcionalidades sin que aparezcan errores
+
+
+		// ----- Ahora puedes realizar los EJERCICIOS F de uso de variables -----
 	}
 
 	void Update()
@@ -180,7 +186,7 @@ public class UsoDeVariablesApuntes : MonoBehaviour
 		// Y algo que tampoco podemos hacer es usar en un método una variable que hemos declarado en otro método diferente
 		// Por tanto, esto de aquí abajo tampoco es correcto
 
-		//Debug.Log(numeroA); // ¡Error! La variable numeroA está declarada en el método Awake y, por tanto, no existe aquí: si quisiéramos usar en este método una variable con ese nombre, tendríamos que declararla primero
+		//Debug.Log(numeroA); // ¡Error! La variable numeroA está declarada en el método Awake, pero no aquí: si quisiéramos usar en este método una variable con ese nombre, tendríamos que declararla primero
 
 		// Ese problema no ocurre, sin embargo, con las variables declaradas a nivel de clase: esas variables se pueden utilizar en cualquier método, porque no pertenecen a ninguno en particular
 		// Además, al hacer eso comprobaremos que las variables contienen el último dato que hayamos guardado en ellas
