@@ -24,6 +24,7 @@ Esta es la lista de contenidos incluidos hasta el momento:
   - [Operaciones con variables](/Unity_apuntes_project/Assets/Scripts/Variables/3_Operaciones_Con_Variables)
     - [Apuntes](/Unity_apuntes_project/Assets/Scripts/Variables/3_Operaciones_Con_Variables/OperacionesConVariablesApuntes.cs)
     - [Ejercicios A](/Unity_apuntes_project/Assets/Scripts/Variables/3_Operaciones_Con_Variables/OperacionesConVariablesEjerciciosA.cs)
+    - [Ejercicios B](/Unity_apuntes_project/Assets/Scripts/Variables/3_Operaciones_Con_Variables/OperacionesConVariablesEjerciciosB.cs)
 - [Bucles](/Unity_apuntes_project/Assets/Scripts/Bucles/BuclesApuntes.cs)
 - [Arrays](/Unity_apuntes_project/Assets/Scripts/Arrays/ArraysApuntes.cs)
 - [Vectores](/Unity_apuntes_project/Assets/Scripts/Vectores/VectoresApuntesVisuales.pdf)

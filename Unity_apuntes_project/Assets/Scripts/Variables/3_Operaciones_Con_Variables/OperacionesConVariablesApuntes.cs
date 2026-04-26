@@ -53,6 +53,9 @@ public class OperacionesConVariablesApuntes : MonoBehaviour
 		Debug.Log(numeroA * numeroB); // Esto muestra el resultado de la multiplicación			= 8
 		Debug.Log(numeroA / numeroB); // Esto muestra el resultado de la división				= 2
 		Debug.Log(numeroA % numeroB); // Esto muestra el resultado de la operación de módulo	= 0
+
+
+		// ----- Ahora puedes realizar los EJERCICIOS B de operaciones con variables -----
 		
 
 		// -------------------------------------------------- C. OPERACIONES MATEMÁTICAS (guardando el resultado en una nueva variable) --------------------------------------------------
