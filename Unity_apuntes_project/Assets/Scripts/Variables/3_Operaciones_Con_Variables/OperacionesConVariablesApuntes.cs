@@ -63,12 +63,12 @@ public class OperacionesConVariablesApuntes : MonoBehaviour
 
 		// Otra cosa que también podemos hacer es guardar en una variable el resultado de la operación y entonces utilizar esa variable donde queramos
 		// Algo que debemos tener en cuenta es que, cuando guardamos el resultado de una operación matemática en una variable, la manera de escribir esa línea de código es opuesta a cómo lo haríamos en el mundo real
-		// Es decir, que, mientras que en el mundo real haríamos algo como esto: 1 + 1 = 2, al programar lo haríamos justo a la inversa: 2 = 1 + 1
+		// Es decir, que, mientras que en el mundo real haríamos algo como esto: 1 + 1 = 2, al programar lo haríamos justo al revés: 2 = 1 + 1
 
 		int resultado;
 
-		//numeroA + numeroB = resultado;	// ¡Error! En el mundo real pondríamos la operación de esta manera, pero al escribir código esto es incorrecto y da error
-		resultado = numeroA + numeroB;		// Correcto
+		//numeroA + numeroB = resultado;	// ¡Error! En el mundo real pondríamos la operación en este orden, pero al escribir código esto es incorrecto y da error
+		resultado = numeroA + numeroB;		// Correcto: siempre que guardemos algo en una variable, la variable va a la izquierda y lo que queremos guardar va a la derecha
 
 		// Más ejemplos:
 		
@@ -85,6 +85,9 @@ public class OperacionesConVariablesApuntes : MonoBehaviour
 		Debug.Log(resultadoMultiplicacion);	// 8
 		Debug.Log(resultadoDivision);		// 2
 		Debug.Log(resultadoModulo);			// 0
+
+
+		// ----- Ahora puedes realizar los EJERCICIOS C de operaciones con variables -----
 		
 
 		// -------------------------------------------------- D. OPERACIONES MATEMÁTICAS (guardando el resultado en la misma variable) --------------------------------------------------
