@@ -26,7 +26,7 @@ public class OperacionesConVariablesEjerciciosC : MonoBehaviour
 
 		//numeroA + numeroB = resultado;	// 3 + 2 = 5
 
-		// Esta línea de aquí arriba es incorrecta, explica brevemente por qué (escribe tu respuesta en un string y muéstralo en Unity)
+		// Esta línea de aquí arriba es incorrecta, explica brevemente por qué (escribe tu respuesta en un string y muéstrala en Unity)
 		// A continuación suma los números A y B, guardando el resultado en la variable sin inicializar (muéstralo en Unity)
 		// --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -51,6 +51,7 @@ public class OperacionesConVariablesEjerciciosC : MonoBehaviour
 		//		- Suma el resultado del módulo y el de la multiplicación (guarda el resultado en la variable que corresponda)
 		// Por último, muestra en Unity el número A, el B y los resultados de todas las operaciones
 		// --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 	}
 
 	void Ejercicio3()

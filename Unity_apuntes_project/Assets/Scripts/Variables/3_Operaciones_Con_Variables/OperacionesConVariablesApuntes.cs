@@ -93,88 +93,151 @@ public class OperacionesConVariablesApuntes : MonoBehaviour
 		// -------------------------------------------------- D. OPERACIONES MATEMÁTICAS (guardando el resultado en la misma variable) --------------------------------------------------
 
 
-		// Cuando obtenemos el resultado de una operación matemática, no siempre vamos a querer crear una variable nueva para guardar ese dato
-		// Hay ocasiones en las que nos interesa que, al realizar una operación con una determinada variable, el resultado final se guarde en esa misma variable
-		// Eso se puede conseguir de dos (o más) maneras diferentes
-
 		int numeroImportante = 3;
 		int otroNumero = 2;
 
-		Debug.Log("Mostramos la misma variable después de ir realizando diversas operaciones con ella y guardando todos los resultados en la propia variable");
+		// Cuando obtenemos el resultado de una operación matemática, no siempre vamos a querer crear una variable nueva para guardar ese dato
+		// Hay veces que nos interesa que el resultado final se guarde en una de las variables que ya estamos usando para la operación
+		// Eso se puede conseguir de un par de maneras diferentes, y una de ellas es muy parecida a lo que haríamos si creáramos una variable nueva
 
+		Debug.Log("Mostramos la misma variable después de ir realizando diversas operaciones con ella y guardando todos los resultados en la propia variable");
 		Debug.Log(numeroImportante); // El número importante vale 3
 
-		// La primera forma de guardar el resultado de una operación en la propia variable es la misma que usaríamos si creáramos una variable nueva
+		// Realizamos una operación con dos variables y al mismo tiempo guardamos el resultado en una de esas dos variables
 
-		numeroImportante = numeroImportante + otroNumero; // Sumamos dos variables y a la vez guardamos el resultado en una de las dos variables que estamos sumando
-
-		Debug.Log(numeroImportante); // El número importante ahora vale 5 (3 + 2)
-
-		// Hay una segunda manera más resumida de hacer eso mismo
-		// Cuando guardamos el resultado de una suma en la misma variable que estamos sumando, podemos evitar repetir el nombre de esa variable si ponemos el símbolo + antes del igual, como aquí abajo
-
-		numeroImportante += otroNumero; // Aquí estamos realizando la misma operación que arriba (numeroImportante = numeroImportante + otroNumero), solo que escrita de un modo más resumido
-
-		Debug.Log(numeroImportante); // El número importante ahora vale 7 (5 + 2)
-
-		// Esto mismo que hemos hecho con la suma se puede aplicar a cualquiera de las otras operaciones matemáticas básicas (resta, multiplicación, división y módulo)
-
-		// RESTA
-
-		numeroImportante = numeroImportante - otroNumero; // 7 - 2 = 5
-
+		numeroImportante = numeroImportante + otroNumero; // 3 + 2 = 5
 		Debug.Log(numeroImportante); // El número importante ahora vale 5
 
-		numeroImportante -= otroNumero; // 5 - 2 = 3
-
+		numeroImportante = numeroImportante - otroNumero; // 5 - 2 = 3
 		Debug.Log(numeroImportante); // El número importante ahora vale 3
 
-		// MULTIPLICACIÓN
-
 		numeroImportante = numeroImportante * otroNumero; // 3 * 2 = 6
-
 		Debug.Log(numeroImportante); // El número importante ahora vale 6
 
-		numeroImportante *= otroNumero; // 6 * 2 = 12
+		numeroImportante = numeroImportante / otroNumero; // 6 / 2 = 3
+		Debug.Log(numeroImportante); // El número importante ahora vale 3
 
-		Debug.Log(numeroImportante); // El número importante ahora vale 12
+		numeroImportante = numeroImportante % otroNumero; // 3 % 2 = 1
+		Debug.Log(numeroImportante); // El número importante ahora vale 1
 
-		// DIVISIÓN
+		// Es importante intentar pensar siempre cuándo nos viene mejor hacer esto (es decir, usar la misma variable que ya tenemos) o cuándo nos conviene más crear una variable nueva, como habíamos hecho anteriormente
+		//		- Si queremos que las variables que ya existen mantengan el valor que tienen ahora (porque lo vamos a usar más adelante), entonces vamos a necesitar una variable nueva
+		//		- Si los datos que teníamos guardados en las variables antes de la operación nos dan igual y lo único que nos interesa es el resultado, entonces podemos usar una de las variables que ya tenemos
 
-		numeroImportante = numeroImportante / otroNumero; // 12 / 2 = 6
+		// Por ejemplo, si tenemos un personaje que tiene cierta cantidad de vida y recibe daño, ese daño se lo tenemos que restar a la vida
+		// Y, al hacer esa operación, nos da igual la vida que tuviera el personaje antes, porque ya no la vamos a necesitar para nada: lo único que nos importa es la vida que tiene ahora
+		// Por tanto, no vamos a crear una variable nueva para guardar la vida que le queda ahora al personaje, sino que usaremos la misma variable que ya teníamos de antes
 
+		int vida = 100;
+		int daño = 20;
+		
+		Debug.Log("Vida del personaje antes de recibir daño");
+		Debug.Log(vida);
+
+		vida = vida - daño; // La vida que tenía el personaje antes nos da igual, solo nos interesa la que tiene ahora, así que no hace falta crear una variable nueva
+
+		Debug.Log("Vida del personaje después de recibir daño");
+		Debug.Log(vida);
+
+		// Ahora imagina que el personaje pasa por un punto de control y según la vida que tenga le vamos a dar más puntuación o menos
+		// Así que lo que vamos a hacer es multipliar la vida del personaje por los puntos de bonus, pero en este caso sí nos interesa seguir manteniendo la vida que le queda al personaje, no queremos cambiarla
+		// Por tanto, lo que haremos aquí será crear una variable nueva, porque así podemos tener la vida por un lado y la puntuación por otro
+		
+		int bonus = 10;
+		
+		Debug.Log("Vida del personaje antes de calcular la puntuación");
+		Debug.Log(vida);
+		
+		int puntuacion = vida * bonus; // Como queremos que la vida del personaje se mantenga igual, no queremos cambiarla, tenemos que crear una variable nueva
+
+		Debug.Log("Vida y puntuación del personaje después de calcular la puntuación");
+		Debug.Log(vida);		// La vida no ha cambiado, seguimos teniéndola guardada aquí
+		Debug.Log(puntuacion);	// Pero ahora además tenemos la puntuación
+
+
+		// ----- Ahora puedes realizar los EJERCICIOS D de operaciones con variables -----
+		
+
+		// -------------------------------------------------- E. OPERACIONES MATEMÁTICAS (guardando el resultado en la misma variable de forma resumida) --------------------------------------------------
+		
+
+		// Arriba hemos visto cómo guardar el resultado de una operación en la misma variable en vez de crear otra nueva
+		// Sin embargo, existe otra manera de hacer eso mismo de un modo más resumido, escribiendo un poquito menos de código y sin repetir el nombre de la variable que estamos sumando
+		// Para ello tenemos que usar los siguientes operadores:
+		//		- Suma:				Usamos += en vez de +
+		//		- Resta:			Usamos -= en vez de -
+		//		- Multiplicación:	Usamos *= en vez de *
+		//		- División:			Usamos /= en vez de /
+		//		- Módulo:			Usamos %= en vez de %
+
+		Debug.Log("Mostramos de nuevo la misma variable después de ir realizando diversas operaciones con ella y guardando todos los resultados en la propia variable");
+
+		// Esta línea de abajo es como hemos realizado las operaciones hasta ahora (en este caso, una suma)
+
+		numeroImportante = numeroImportante + otroNumero; // 1 + 2 = 3
+		Debug.Log(numeroImportante); // El número importante ahora vale 3
+
+		// Y esta línea de aquí abajo es como se haría la misma operación de arriba, pero de forma más resumida
+
+		numeroImportante += otroNumero; // 3 + 2 = 5
+		Debug.Log(numeroImportante); // El número importante ahora vale 5
+
+		// Y lo mismo valdría para cualquiera de las otras operaciones matemáticas
+
+		numeroImportante -= otroNumero; // 5 - 2 = 3
+		Debug.Log(numeroImportante); // El número importante ahora vale 3
+
+		numeroImportante *= otroNumero; // 3 * 2 = 6
 		Debug.Log(numeroImportante); // El número importante ahora vale 6
 
 		numeroImportante /= otroNumero; // 6 / 2 = 3
-
 		Debug.Log(numeroImportante); // El número importante ahora vale 3
 
-		// MÓDULO
-
-		numeroImportante = numeroImportante % otroNumero; // 3 % 2 = 1
-
+		numeroImportante %= otroNumero; // 3 % 2 = 1
 		Debug.Log(numeroImportante); // El número importante ahora vale 1
 
-		numeroImportante %= otroNumero; // 1 % 2 = 1
+		// Cuando realicemos las operaciones de esta manera, es importante que los dos símbolos (el de la operación matemática y el igual) vayan pegados
 
-		Debug.Log(numeroImportante); // El número importante ahora vale 1
-
-		// Además de lo anterior, hay un par de operadores especiales que son bastantes más específicos, pero que nos permiten resumir aún más ciertas sumas y restas: ++ y --
-		//		- Operador ++	Le suma 1 a la variable en la que lo usemos
-		//		- Operador --	Le resta 1 a la variable en la que lo usemos
-
-		numeroImportante++; // Esto es exactamente lo mismo que escribir esto otro: numeroImportante = numeroImportante + 1;	// Es decir, que le estamos sumando 1 al número importante
-
-		Debug.Log(numeroImportante); // El número importante ahora vale 2 (1 + 1)
-
-		numeroImportante--; // Esto es exactamente lo mismo que escribir esto otro: numeroImportante = numeroImportante - 1;	// Es decir, que le estamos restando 1 al número importante
-
-		Debug.Log(numeroImportante); // El número importante ahora vale 1 (2 - 1)
-
-		// Siempre que queramos sumarle (o restarle) 1 a un número, esta manera que acabamos de ver con los operadores ++ y -- es la forma más breve de hacerlo
+		//numeroImportante * = otroNumero;	// ¡Error! El símbolo de la operación y el igual deben ir pegados
+		numeroImportante *= otroNumero;		// Correcto
 		
 
-		// -------------------------------------------------- E. OPERACIONES MATEMÁTICAS (encadenando operaciones) --------------------------------------------------
+		// -------------------------------------------------- F. OPERACIONES MATEMÁTICAS (sumándole 1 y restándole 1 a la misma variable de forma aún más resumida) --------------------------------------------------
+
+
+		// Además de lo anterior, hay un par de operadores más específicos que podemos usar cuando estemos sumando o restando dos números y uno de esos números sea 1
+		//		- Operador ++	Le suma 1 a una variable
+		//		- Operador --	Le resta 1 a una variable
+
+		// A modo de comparación, aquí aparecen tres maneras de sumarle 1 a un número
+
+		numeroImportante = numeroImportante + 1;	// 1 + 1 = 2
+		numeroImportante += 1;						// 2 + 1 = 3
+		numeroImportante++;							// 3 + 1 = 4
+
+		Debug.Log(numeroImportante); // El número importante ahora vale 4
+
+		// Y aquí lo mismo que arriba, pero restando en vez de sumar
+
+		numeroImportante = numeroImportante - 1;	// 4 - 1 = 3
+		numeroImportante -= 1;						// 3 - 1 = 2
+		numeroImportante--;							// 2 - 1 = 1
+
+		Debug.Log(numeroImportante); // El número importante ahora vale 1
+
+		// Cuando usamos estos operadores, tenemos que tener en cuenta que los dos símbolos deben estar pegados el uno al otro
+
+		//numeroImportante- -;		// ¡Error! Los dos símbolos deben ir pegados
+		numeroImportante--;			// Correcto
+
+		// Además, como estos operadores están creados específicamente para sumar o restar 1, no es necesario poner el número detrás
+
+		//numeroImportante ++ 1;	// ¡Error! No se pone el 1 detrás de los dos símbolos
+		//numeroImportante ++= 1;	// ¡Error! No funciona tampoco poniendo un símbolo de igual
+		numeroImportante++;			// Correcto
+		
+
+		// -------------------------------------------------- G. OPERACIONES MATEMÁTICAS (encadenando operaciones) --------------------------------------------------
 
 
 		// Todas las operaciones que hemos realizado hasta ahora han sido simples: un número, otro número y un resultado, pero nada nos impide encadenar tantas operaciones como queramos
@@ -210,7 +273,7 @@ public class OperacionesConVariablesApuntes : MonoBehaviour
 		// Eso es porque, cuando usamos uno de estos operadores: +=, -=, *=, /=, %=, todo lo que va detrás del símbolo de igual tiene prioridad
 		
 
-		// -------------------------------------------------- F. NÚMEROS NEGATIVOS --------------------------------------------------
+		// -------------------------------------------------- H. NÚMEROS NEGATIVOS --------------------------------------------------
 
 
 		// Por simplificar, en los ejemplos de arriba hemos usado números positivos todo el tiempo, pero las operaciones matemáticas se pueden realizar también con números negativos
@@ -232,7 +295,7 @@ public class OperacionesConVariablesApuntes : MonoBehaviour
 		Debug.Log(numeroNegativo);	// Esto muestra -1, porque la variable numeroNegativo sigue siendo negativa
 		
 
-		// -------------------------------------------------- G. UNIÓN DE TEXTOS (STRING) --------------------------------------------------
+		// -------------------------------------------------- I. UNIÓN DE TEXTOS (STRING) --------------------------------------------------
 
 
 		// Las variables numéricas no son las únicas con las que se pueden utilizar operadores
