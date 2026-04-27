@@ -34,7 +34,7 @@ public class OperacionesConVariablesEjerciciosD : MonoBehaviour
 
 	void Ejercicio2()
 	{
-		// A continuación aparece una variable principal y cinco secundarias
+		// Abajo aparecen una variable principal y cinco secundarias
 		// Realiza cinco operaciones matemáticas con el número principal, usando una de las variables secundarias en cada operación (en el orden que te parezca correcto, pero sin que se repita ninguna)
 		// Tras cada operación, el número principal debe tener el valor que se indique en los comentarios de abajo
 

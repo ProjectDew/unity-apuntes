@@ -162,15 +162,15 @@ public class OperacionesConVariablesApuntes : MonoBehaviour
 		
 
 		// Arriba hemos visto cómo guardar el resultado de una operación en la misma variable en vez de crear otra nueva
-		// Sin embargo, existe otra manera de hacer eso mismo de un modo más resumido, escribiendo un poquito menos de código y sin repetir el nombre de la variable que estamos sumando
+		// Sin embargo, existe otra manera de hacer eso mismo de un modo más resumido, escribiendo un poquito menos de código y sin repetir el nombre de la variable
 		// Para ello tenemos que usar los siguientes operadores:
-		//		- Suma:				Usamos += en vez de +
-		//		- Resta:			Usamos -= en vez de -
-		//		- Multiplicación:	Usamos *= en vez de *
-		//		- División:			Usamos /= en vez de /
-		//		- Módulo:			Usamos %= en vez de %
+		//		- Suma:				+=
+		//		- Resta:			-=
+		//		- Multiplicación:	*=
+		//		- División:			/=
+		//		- Módulo:			%=
 
-		Debug.Log("Mostramos de nuevo la misma variable después de ir realizando diversas operaciones con ella y guardando todos los resultados en la propia variable");
+		Debug.Log("Mostramos de nuevo la misma variable de antes después de ir realizando diversas operaciones con ella y guardando todos los resultados en la propia variable");
 
 		// Esta línea de abajo es como hemos realizado las operaciones hasta ahora (en este caso, una suma)
 
@@ -200,6 +200,9 @@ public class OperacionesConVariablesApuntes : MonoBehaviour
 
 		//numeroImportante * = otroNumero;	// ¡Error! El símbolo de la operación y el igual deben ir pegados
 		numeroImportante *= otroNumero;		// Correcto
+
+
+		// ----- Ahora puedes realizar los EJERCICIOS E de operaciones con variables -----
 		
 
 		// -------------------------------------------------- F. OPERACIONES MATEMÁTICAS (sumándole 1 y restándole 1 a la misma variable de forma aún más resumida) --------------------------------------------------
