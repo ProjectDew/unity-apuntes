@@ -205,14 +205,21 @@ public class OperacionesConVariablesApuntes : MonoBehaviour
 		// ----- Ahora puedes realizar los EJERCICIOS E de operaciones con variables -----
 		
 
-		// -------------------------------------------------- F. OPERACIONES MATEMÁTICAS (sumándole 1 y restándole 1 a la misma variable de forma aún más resumida) --------------------------------------------------
+		// -------------------------------------------------- F. OPERACIONES MATEMÁTICAS (sumando 1 y restando 1 a la misma variable) --------------------------------------------------
 
 
-		// Además de lo anterior, hay un par de operadores más específicos que podemos usar cuando estemos sumando o restando dos números y uno de esos números sea 1
+		// Además de lo anterior, hay un par de operadores más específicos que son los siguientes:
 		//		- Operador ++	Le suma 1 a una variable
 		//		- Operador --	Le resta 1 a una variable
+		// Por ejemplo:
 
-		// A modo de comparación, aquí aparecen tres maneras de sumarle 1 a un número
+		numeroImportante++; // 1 + 1 = 2
+		Debug.Log(numeroImportante); // El número importante ahora vale 2
+
+		numeroImportante--; // 2 - 1 = 1
+		Debug.Log(numeroImportante); // El número importante ahora vale 1
+
+		// A modo de comparación, aquí aparecen las tres maneras distintas que existen de sumarle 1 a un número
 
 		numeroImportante = numeroImportante + 1;	// 1 + 1 = 2
 		numeroImportante += 1;						// 2 + 1 = 3
@@ -220,7 +227,7 @@ public class OperacionesConVariablesApuntes : MonoBehaviour
 
 		Debug.Log(numeroImportante); // El número importante ahora vale 4
 
-		// Y aquí lo mismo que arriba, pero restando en vez de sumar
+		// Y aquí aparecen las tres maneras que existen de restarle 1 a un número
 
 		numeroImportante = numeroImportante - 1;	// 4 - 1 = 3
 		numeroImportante -= 1;						// 3 - 1 = 2
@@ -235,9 +242,12 @@ public class OperacionesConVariablesApuntes : MonoBehaviour
 
 		// Además, como estos operadores están creados específicamente para sumar o restar 1, no es necesario poner el número detrás
 
-		//numeroImportante ++ 1;	// ¡Error! No se pone el 1 detrás de los dos símbolos
-		//numeroImportante ++= 1;	// ¡Error! No funciona tampoco poniendo un símbolo de igual
+		//numeroImportante++ 1;		// ¡Error! No se pone el 1 detrás de los dos símbolos
+		//numeroImportante++= 1;	// ¡Error! No funciona tampoco poniendo un símbolo de igual
 		numeroImportante++;			// Correcto
+
+
+		// ----- Ahora puedes realizar los EJERCICIOS F de operaciones con variables -----
 		
 
 		// -------------------------------------------------- G. OPERACIONES MATEMÁTICAS (encadenando operaciones) --------------------------------------------------
