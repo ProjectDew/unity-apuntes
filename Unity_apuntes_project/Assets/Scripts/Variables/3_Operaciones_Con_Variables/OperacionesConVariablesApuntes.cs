@@ -253,23 +253,34 @@ public class OperacionesConVariablesApuntes : MonoBehaviour
 		// -------------------------------------------------- G. NÚMEROS NEGATIVOS --------------------------------------------------
 
 
-		// En todos los ejemplos anteriores hemos usado únicamente números positivos (por simplificar), pero las operaciones matemáticas se pueden realizar también con números negativos
-		// Además, si queremos es posible usar el símbolo de menos (-) para invertir el signo de una variable
-
-		int numeroPositivo = 1;
-		int numeroNegativo = -1;
+		// Hasta ahora hemos usado números positivos todo el tiempo por simplificar, pero tanto las variables de tipo int como las de tipo float pueden contener números negativos también
 
 		Debug.Log("Mostramos números positivos y negativos");
 
+		int enteroNegativo = -8;
+		float realNegativo = -3.14159f;
+
+		Debug.Log(enteroNegativo);
+		Debug.Log(realNegativo);
+
+		// Además, es posible invertir de forma temporal el signo de una variable usando el símbolo de menos (-)
+
+		int numeroPositivo = 1;
+
 		Debug.Log(numeroPositivo);	// Esto muestra 1
+		Debug.Log(-numeroPositivo);	// Esto muestra -1 (se invierte el signo)
+		Debug.Log(numeroPositivo);	// Esto muestra 1, porque la variable en sí no ha cambiado, sigue siendo positiva
+
+		// Por otro lado, si usamos el símbolo de menos en una variable negativa lo que haremos será volverla positiva de forma temporal
+		
+		int numeroNegativo = -1;
+
 		Debug.Log(numeroNegativo);	// Esto muestra -1
-		Debug.Log(-numeroPositivo);	// Esto muestra -1	Al poner el símbolo - delante del nombre de la variable invertimos su signo: si es positiva, se muestra como negativa
-		Debug.Log(-numeroNegativo);	// Esto muestra 1	Al poner el símbolo - delante del nombre de la variable invertimos su signo: si es negativa, se muestra como positiva
+		Debug.Log(-numeroNegativo);	// Esto muestra 1 (se invierte el signo)
+		Debug.Log(numeroNegativo);	// Esto muestra -1, porque la variable en sí no ha cambiado, sigue siendo negativa
 
-		// Al usar el símbolo de menos (-) delante del nombre de una variable, la variable no cambia su signo de forma permanente, solo en ese caso concreto
 
-		Debug.Log(numeroPositivo);	// Esto muestra 1, porque la variable numeroPositivo sigue siendo positiva
-		Debug.Log(numeroNegativo);	// Esto muestra -1, porque la variable numeroNegativo sigue siendo negativa
+		// ----- Ahora puedes realizar los EJERCICIOS G de operaciones con variables -----
 		
 
 		// -------------------------------------------------- H. UNIÓN DE TEXTOS (STRING) --------------------------------------------------
