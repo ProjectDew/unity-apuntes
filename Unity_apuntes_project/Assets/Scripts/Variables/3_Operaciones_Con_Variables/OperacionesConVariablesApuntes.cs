@@ -294,11 +294,11 @@ public class OperacionesConVariablesApuntes : MonoBehaviour
 		string textoB = "2";	// Aquí tenemos un texto B que solo contiene el número 2
 
 		// Si las dos variables que acabamos de declarar fuesen de tipo int (o float) y las sumásemos, el resultado sería 6 (4 + 2 = 6)
-		// Sin embargo, las variables son textos y no números, por lo que al sumarlas no se comportan como números y, por tanto, el resultado es diferente
+		// Sin embargo, las variables son textos y no números, por lo que al "sumarlas" el resultado es diferente
 
 		string resultadoTexto = textoA + textoB; // 4 + 2 = 42
 
-		Debug.Log("Mostramos los resultados de 'sumar' (es decir, unir o concatenar) dos o más textos");
+		Debug.Log("Mostramos los resultados de 'sumar' (unir) textos");
 
 		Debug.Log(resultadoTexto); // 42
 
@@ -329,5 +329,8 @@ public class OperacionesConVariablesApuntes : MonoBehaviour
 		holaMundo += "!";				// Y esto también
 
 		Debug.Log(holaMundo); // ¡Hola, mundo!
+
+
+		// ----- Ahora puedes realizar los EJERCICIOS H de operaciones con variables -----
 	}
 }
