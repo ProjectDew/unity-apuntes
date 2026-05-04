@@ -7,18 +7,18 @@ public class CreacionDeVariablesEjerciciosB : MonoBehaviour
 	// -------------------------------------------------- RECOMENDACIONES --------------------------------------------------
 
 
-	// ----- Antes de empezar, lee los apuntes sobre CREACIÓN DE VARIABLES (SECCIÓN B) -----
+	// ----- Antes de empezar, lee los apuntes sobre CREACIÃ“N DE VARIABLES (SECCIÃ“N B) -----
 
 
 	// Una vez que hayas empezado con los ejercicios, intenta avanzar todo lo que puedas sin mirar los apuntes ni usar ninguna herramienta adicional
-	// De hecho, si tienes la confianza suficiente, puedes probar a abrir este documento en un bloc de notas y hacer los ejercicios ahí (en vez de usar Visual Studio u otro editor del estilo)
-	// Si te ha faltado algo, lo puedes completar mirando los apuntes o recurriendo a las herramientas que necesites, pero intentando siempre entenderlo todo bien (no copies y pegues sin más)
+	// De hecho, si tienes la confianza suficiente, puedes probar a abrir este documento en un bloc de notas y hacer los ejercicios ahÃ­ (en vez de usar Visual Studio u otro editor del estilo)
+	// Si te ha faltado algo, lo puedes completar mirando los apuntes o recurriendo a las herramientas que necesites, pero intentando siempre entenderlo todo bien (no copies y pegues sin mÃ¡s)
 	// Ante cualquier duda, puedes preguntarme sin problema
 
 
 	void Ejercicio1()
 	{
-		// ¿Qué dos informaciones tenemos que poner siempre que creamos una variable y en qué orden tenemos que escribirlas? (Escribe tu respuesta entre las comillas)
+		// Â¿QuÃ© dos informaciones tenemos que poner siempre que creamos una variable y en quÃ© orden tenemos que escribirlas? (Escribe tu respuesta entre las comillas)
 		// --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 		string respuesta = "";
 
@@ -27,7 +27,7 @@ public class CreacionDeVariablesEjerciciosB : MonoBehaviour
 
 	void Ejercicio2()
 	{
-		// A continuación se muestra una lista de tipos de variables. ¿Qué clase de datos podemos guardar en cada uno de ellos? (Escribe tus respuestas abajo entre las comillas)
+		// A continuaciÃ³n se muestra una lista de tipos de variables. Â¿QuÃ© clase de datos podemos guardar en cada uno de ellos? (Escribe tus respuestas abajo entre las comillas)
 		//		Tipo 1. string
 		//		Tipo 2. float
 		//		Tipo 3. bool
@@ -49,7 +49,7 @@ public class CreacionDeVariablesEjerciciosB : MonoBehaviour
 
 	void Ejercicio3()
 	{
-		// Cambia el tipo de cada una de las siguientes variables por el que creas que mejor encaja con su nombre (si el tipo que mejor encaja es string, deja la variable como está)
+		// Cambia el tipo de cada una de las siguientes variables por el que creas que mejor encaja con su nombre (si el tipo que mejor encaja es string, deja la variable como estÃ¡)
 		// --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 		string entero;
 		string caracter;

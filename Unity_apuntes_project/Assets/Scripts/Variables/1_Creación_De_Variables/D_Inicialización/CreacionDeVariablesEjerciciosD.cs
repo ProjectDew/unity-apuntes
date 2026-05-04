@@ -7,18 +7,18 @@ public class CreacionDeVariablesEjerciciosD : MonoBehaviour
 	// -------------------------------------------------- RECOMENDACIONES --------------------------------------------------
 
 
-	// ----- Antes de empezar, lee los apuntes sobre CREACI”N DE VARIABLES (SECCI”N D) -----
+	// ----- Antes de empezar, lee los apuntes sobre CREACI√ìN DE VARIABLES (SECCI√ìN D) -----
 
 
 	// Una vez que hayas empezado con los ejercicios, intenta avanzar todo lo que puedas sin mirar los apuntes ni usar ninguna herramienta adicional
-	// De hecho, si tienes la confianza suficiente, puedes probar a abrir este documento en un bloc de notas y hacer los ejercicios ahÌ (en vez de usar Visual Studio u otro editor del estilo)
-	// Si te ha faltado algo, lo puedes completar mirando los apuntes o recurriendo a las herramientas que necesites, pero intentando siempre entenderlo todo bien (no copies y pegues sin m·s)
+	// De hecho, si tienes la confianza suficiente, puedes probar a abrir este documento en un bloc de notas y hacer los ejercicios ah√≠ (en vez de usar Visual Studio u otro editor del estilo)
+	// Si te ha faltado algo, lo puedes completar mirando los apuntes o recurriendo a las herramientas que necesites, pero intentando siempre entenderlo todo bien (no copies y pegues sin m√°s)
 	// Ante cualquier duda, puedes preguntarme sin problema
 
 
 	void Ejercicio1()
 	{
-		// Explica en pocas palabras quÈ es declarar una variable y quÈ es inicializarla (escribe tus respuestas aquÌ abajo entre las comillas)
+		// Explica en pocas palabras qu√© es declarar una variable y qu√© es inicializarla (escribe tus respuestas aqu√≠ abajo entre las comillas)
 		// --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 		string declararVariable = "";
 		string inicializarVariable = "";
@@ -29,16 +29,16 @@ public class CreacionDeVariablesEjerciciosD : MonoBehaviour
 
 	void Ejercicio2()
 	{
-		// Haz que las variables que est·n declaradas e inicializadas aquÌ abajo sean correctas (pero no cambies su tipo ni su nombre)
+		// Haz que las variables que est√°n declaradas e inicializadas aqu√≠ abajo sean correctas (pero no cambies su tipo ni su nombre)
 		// --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-		/* // ---------------------------------------- ELIMINA ESTA LÕNEA ANTES DE EMPEZAR EL EJERCICIO
+		/* // ---------------------------------------- ELIMINA ESTA L√çNEA ANTES DE EMPEZAR EL EJERCICIO
 		string nombre = 'Luigi';
 		bool puedeVolar = falso;
 		int monedas = 4.0;
 		char ampersand = "&";
 		float velocidadRotacion = 5.4;
 		bool estaAtacando = "true";
-		string contraseÒa = ***********;
+		string contrase√±a = ***********;
 		float numeroPi = 3,14159F;
 		char teclaPulsada = 'Zeta';
 		int numeroIntentos = '2';
@@ -54,7 +54,7 @@ public class CreacionDeVariablesEjerciciosD : MonoBehaviour
 		Debug.Log(ampersand);
 		Debug.Log(velocidadRotacion);
 		Debug.Log(estaAtacando);
-		Debug.Log(contraseÒa);
+		Debug.Log(contrase√±a);
 		Debug.Log(numeroPi);
 		Debug.Log(teclaPulsada);
 		Debug.Log(numeroIntentos);
@@ -63,7 +63,7 @@ public class CreacionDeVariablesEjerciciosD : MonoBehaviour
 		Debug.Log(enemigosDerrotados);
 		Debug.Log(numeroEuler);
 		Debug.Log(izard);
-		*/ // ---------------------------------------- ELIMINA ESTA LÕNEA ANTES DE EMPEZAR EL EJERCICIO
+		*/ // ---------------------------------------- ELIMINA ESTA L√çNEA ANTES DE EMPEZAR EL EJERCICIO
 	}
 
 	void Ejercicio3()
@@ -86,7 +86,7 @@ public class CreacionDeVariablesEjerciciosD : MonoBehaviour
 		char cifra;
 		string mensajeVictoria;
 		
-		/* // ---------------------------------------- ELIMINA ESTA LÕNEA PARA COMPROBAR EL EJERCICIO
+		/* // ---------------------------------------- ELIMINA ESTA L√çNEA PARA COMPROBAR EL EJERCICIO
 		Debug.Log(velocidad);
 		Debug.Log(nombreJugador);
 		Debug.Log(vidas);
@@ -102,7 +102,7 @@ public class CreacionDeVariablesEjerciciosD : MonoBehaviour
 		Debug.Log(puertaAbierta);
 		Debug.Log(cifra);
 		Debug.Log(mensajeVictoria);
-		*/ // ---------------------------------------- ELIMINA ESTA LÕNEA PARA COMPROBAR EL EJERCICIO
+		*/ // ---------------------------------------- ELIMINA ESTA L√çNEA PARA COMPROBAR EL EJERCICIO
 	}
 
 	void Awake()

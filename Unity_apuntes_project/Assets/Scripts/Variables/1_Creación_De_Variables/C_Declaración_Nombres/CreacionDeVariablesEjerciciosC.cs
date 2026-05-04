@@ -1,4 +1,4 @@
-#pragma warning disable
+ï»¿#pragma warning disable
 
 using UnityEngine;
 
@@ -7,18 +7,18 @@ public class CreacionDeVariablesEjerciciosC : MonoBehaviour
 	// -------------------------------------------------- RECOMENDACIONES --------------------------------------------------
 
 
-	// ----- Antes de empezar, lee los apuntes sobre CREACIÓN DE VARIABLES (SECCIÓN C) -----
+	// ----- Antes de empezar, lee los apuntes sobre CREACIÃ“N DE VARIABLES (SECCIÃ“N C) -----
 
 
 	// Una vez que hayas empezado con los ejercicios, intenta avanzar todo lo que puedas sin mirar los apuntes ni usar ninguna herramienta adicional
-	// De hecho, si tienes la confianza suficiente, puedes probar a abrir este documento en un bloc de notas y hacer los ejercicios ahí (en vez de usar Visual Studio u otro editor del estilo)
-	// Si te ha faltado algo, lo puedes completar mirando los apuntes o recurriendo a las herramientas que necesites, pero intentando siempre entenderlo todo bien (no copies y pegues sin más)
+	// De hecho, si tienes la confianza suficiente, puedes probar a abrir este documento en un bloc de notas y hacer los ejercicios ahÃ­ (en vez de usar Visual Studio u otro editor del estilo)
+	// Si te ha faltado algo, lo puedes completar mirando los apuntes o recurriendo a las herramientas que necesites, pero intentando siempre entenderlo todo bien (no copies y pegues sin mÃ¡s)
 	// Ante cualquier duda, puedes preguntarme sin problema
 
 
 	void Ejercicio1()
 	{
-		// Imagina que tenemos las siguientes variables creadas tal cual se muestran aquí. ¿Qué problema crees que puede haber con ellas? (Escribe tu respuesta abajo entre las comillas)
+		// Imagina que tenemos las siguientes variables creadas tal cual se muestran aquÃ­. Â¿QuÃ© problema crees que puede haber con ellas? (Escribe tu respuesta abajo entre las comillas)
 		// int numero;
 		// float numero;
 		// --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -29,7 +29,7 @@ public class CreacionDeVariablesEjerciciosC : MonoBehaviour
 
 	void Ejercicio2()
 	{
-		// Todos los nombres de variables que aparecen entrecomillados aquí abajo provocarían errores si se usaran tal cual están ahí. Cámbialos para que sean correctos
+		// Todos los nombres de variables que aparecen entrecomillados aquÃ­ abajo provocarÃ­an errores si se usaran tal cual estÃ¡n ahÃ­. AjÃºstalos para que sean correctos
 		// --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 		string nombre1 =  "numero entero";
 		string nombre2 =  "Puede'volar";
@@ -45,7 +45,7 @@ public class CreacionDeVariablesEjerciciosC : MonoBehaviour
 		string nombre12 = "_esta-saltando";
 		string nombre13 = "jugador 2";
 		string nombre14 = "pulsarTecla/Boton";
-		string nombre15 = "¡hasGanado!";
+		string nombre15 = "Â¡hasGanado!";
 
 		Debug.Log(nombre1);
 		Debug.Log(nombre2);
@@ -66,8 +66,8 @@ public class CreacionDeVariablesEjerciciosC : MonoBehaviour
 
 	void Ejercicio3()
 	{
-		// Identifica cuáles de las siguientes variables tienen nombres 100% correctos (que siguen todas las recomendaciones) y cuáles se pueden mejorar
-		// Al final de cada línea, escribe una letra C de 'Correcto' o una M de 'Mejorable'
+		// Identifica cuÃ¡les de las siguientes variables tienen nombres 100% correctos (que siguen todas las recomendaciones) y cuÃ¡les se pueden mejorar
+		// Al final de cada lÃ­nea, escribe una letra C de 'Correcto' o una M de 'Mejorable'
 		// --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 		float _Velocidad;			//
 		char  _tecla;				//
@@ -85,7 +85,7 @@ public class CreacionDeVariablesEjerciciosC : MonoBehaviour
 		float _contadorTiempo;		//
 		string tituloJuego;			//
 
-		// Las variables que tengan nombres mejorables decláralas de nuevo aquí abajo usando nombres que sí que sean del todo correctos (si en algún caso no sabes qué nombre poner, invéntate uno que pudiera tener sentido)
+		// Las variables que tengan nombres mejorables declÃ¡ralas de nuevo aquÃ­ abajo usando nombres que sÃ­ que sean del todo correctos (si en algÃºn caso no sabes quÃ© nombre poner, invÃ©ntate uno que pudiera tener sentido)
 
 		// ...
 	}
