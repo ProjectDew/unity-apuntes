@@ -2,12 +2,12 @@
 
 using UnityEngine;
 
-public class CreacionDeVariablesEjerciciosB : MonoBehaviour
+public class CreacionDeVariablesEjerciciosC : MonoBehaviour
 {
 	// -------------------------------------------------- RECOMENDACIONES --------------------------------------------------
 
 
-	// ----- Antes de empezar, lee los apuntes sobre CREACIÓN DE VARIABLES (SECCIÓN B) -----
+	// ----- Antes de empezar, lee los apuntes sobre CREACIÓN DE VARIABLES (SECCIÓN C) -----
 
 
 	// Una vez que hayas empezado con los ejercicios, intenta avanzar todo lo que puedas sin mirar los apuntes ni usar ninguna herramienta adicional
@@ -18,16 +18,29 @@ public class CreacionDeVariablesEjerciciosB : MonoBehaviour
 
 	void Ejercicio1()
 	{
-		// ¿Qué dos informaciones tenemos que poner de forma obligatoria siempre que creamos una variable y en qué orden tenemos que escribirlas? (Escribe tu respuesta entre las comillas)
+		// A continuación se muestra una lista de tipos de variables. ¿Qué clase de datos podemos guardar en cada uno de ellos? (Escribe tus respuestas abajo entre las comillas)
+		//		Tipo 1. string
+		//		Tipo 2. float
+		//		Tipo 3. bool
+		//		Tipo 4. char
+		//		Tipo 5. int
 		// --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-		string respuesta = "";
+		string respuestaString = "";
+		string respuestaFloat = "";
+		string respuestaBool = "";
+		string respuestaChar = "";
+		string respuestaInt = "";
 
-		Debug.Log(respuesta);
+		Debug.Log(respuestaString);
+		Debug.Log(respuestaFloat);
+		Debug.Log(respuestaBool);
+		Debug.Log(respuestaChar);
+		Debug.Log(respuestaInt);
 	}
 
 	void Ejercicio2()
 	{
-		// ¿Qué hace o qué función tiene la primera de las dos informaciones que tenemos que poner al declarar una variable? (Escribe tu respuesta entre las comillas)
+		// Imagina que tenemos el siguiente dato: 5. ¿Qué tipo o tipos de variable podemos usar para guardarlo? (Escribe tu respuesta abajo entre las comillas)
 		// --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 		string respuesta = "";
 
@@ -36,11 +49,18 @@ public class CreacionDeVariablesEjerciciosB : MonoBehaviour
 
 	void Ejercicio3()
 	{
-		// ¿Qué hace o qué función tiene la segunda de las dos informaciones que tenemos que poner al declarar una variable? (Escribe tu respuesta entre las comillas)
+		// Cambia el tipo de cada una de las siguientes variables por el que creas que mejor encaja con su nombre (si el tipo que mejor encaja es string, deja la variable como está)
 		// --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-		string respuesta = "";
-
-		Debug.Log(respuesta);
+		string entero;
+		string caracter;
+		string decimales;
+		string texto;
+		string apagado;
+		string velocidad;
+		string simbolo;
+		string edad;
+		string correcto;
+		string nombre;
 	}
 
 	void Awake()

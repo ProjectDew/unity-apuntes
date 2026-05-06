@@ -2,12 +2,12 @@
 
 using UnityEngine;
 
-public class CreacionDeVariablesEjerciciosB : MonoBehaviour
+public class CreacionDeVariablesEjerciciosE : MonoBehaviour
 {
 	// -------------------------------------------------- RECOMENDACIONES --------------------------------------------------
 
 
-	// ----- Antes de empezar, lee los apuntes sobre CREACIÓN DE VARIABLES (SECCIÓN B) -----
+	// ----- Antes de empezar, lee los apuntes sobre CREACIÓN DE VARIABLES (SECCIÓN E) -----
 
 
 	// Una vez que hayas empezado con los ejercicios, intenta avanzar todo lo que puedas sin mirar los apuntes ni usar ninguna herramienta adicional
@@ -18,7 +18,7 @@ public class CreacionDeVariablesEjerciciosB : MonoBehaviour
 
 	void Ejercicio1()
 	{
-		// ¿Qué dos informaciones tenemos que poner de forma obligatoria siempre que creamos una variable y en qué orden tenemos que escribirlas? (Escribe tu respuesta entre las comillas)
+		// En orden de más a menos frecuente, indica qué caracteres deberíamos poner al principio del nombre de una variable (escribe tu respuesta abajo entre las comillas)
 		// --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 		string respuesta = "";
 
@@ -27,7 +27,9 @@ public class CreacionDeVariablesEjerciciosB : MonoBehaviour
 
 	void Ejercicio2()
 	{
-		// ¿Qué hace o qué función tiene la primera de las dos informaciones que tenemos que poner al declarar una variable? (Escribe tu respuesta entre las comillas)
+		// ¿Sabrías explicar qué vamos a hacer con la siguiente variable de tipo float? ¿Cómo podemos mejorar el nombre que le hemos dado? (Escribe tu respuesta abajo entre las comillas)
+
+		float v;
 		// --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 		string respuesta = "";
 
@@ -36,11 +38,28 @@ public class CreacionDeVariablesEjerciciosB : MonoBehaviour
 
 	void Ejercicio3()
 	{
-		// ¿Qué hace o qué función tiene la segunda de las dos informaciones que tenemos que poner al declarar una variable? (Escribe tu respuesta entre las comillas)
+		// Identifica cuáles de las siguientes nombres de variables siguen todas las recomendaciones y cuáles se podrían mejorar
+		// Al final de cada línea, escribe una letra C de 'Correcto' o una M de 'Mejorable'
 		// --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-		string respuesta = "";
+		float _Velocidad;			//
+		char  _tecla;				//
+		int Numerovidas;			//
+		bool algo;					//
+		float numeroPi;				//
+		string _NombrePersonaje;	//
+		bool esta_encendido;		//
+		char letraJugador1;			//
+		float NumeroReal;			//
+		int cosa;					//
+		string ID;					//
+		bool esAlgo;				//
+		int total_Intentos;			//
+		float _contadorTiempo;		//
+		string tituloJuego;			//
 
-		Debug.Log(respuesta);
+		// Las variables que tengan nombres mejorables decláralas de nuevo aquí abajo usando nombres que sí que sean del todo correctos (si en algún caso no sabes qué nombre poner, invéntate uno que pudiera tener sentido)
+
+		// ...
 	}
 
 	void Awake()

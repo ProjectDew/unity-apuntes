@@ -29,6 +29,19 @@ public class CreacionDeVariablesEjerciciosD : MonoBehaviour
 
 	void Ejercicio2()
 	{
+		// La frase que aparece aquí abajo no es del todo correcta. ¿Qué dos matices le añadirías para que lo sea? (Escribe tus respuestas abajo entre las comillas)
+
+		// Un nombre de variable no debe repetirse ni tampoco contener espacios, caracteres especiales, números o ciertas palabras reservadas
+		// --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+		string matiz1 = "";
+		string matiz2 = "";
+
+		Debug.Log(matiz1);
+		Debug.Log(matiz2);
+	}
+
+	void Ejercicio3()
+	{
 		// Todos los nombres de variables que aparecen entrecomillados aquí abajo provocarían errores si se usaran tal cual están ahí. Ajústalos para que sean correctos
 		// --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 		string nombre1 =  "numero entero";
@@ -62,32 +75,6 @@ public class CreacionDeVariablesEjerciciosD : MonoBehaviour
 		Debug.Log(nombre13);
 		Debug.Log(nombre14);
 		Debug.Log(nombre15);
-	}
-
-	void Ejercicio3()
-	{
-		// Identifica cuáles de las siguientes variables tienen nombres 100% correctos (que siguen todas las recomendaciones) y cuáles se pueden mejorar
-		// Al final de cada línea, escribe una letra C de 'Correcto' o una M de 'Mejorable'
-		// --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-		float _Velocidad;			//
-		char  _tecla;				//
-		int Numerovidas;			//
-		bool algo;					//
-		float numeroPi;				//
-		string _NombrePersonaje;	//
-		bool esta_encendido;		//
-		char letraJugador1;			//
-		float NumeroReal;			//
-		int cosa;					//
-		string ID;					//
-		bool si;					//
-		int total_Intentos;			//
-		float _contadorTiempo;		//
-		string tituloJuego;			//
-
-		// Las variables que tengan nombres mejorables decláralas de nuevo aquí abajo usando nombres que sí que sean del todo correctos (si en algún caso no sabes qué nombre poner, invéntate uno que pudiera tener sentido)
-
-		// ...
 	}
 
 	void Awake()

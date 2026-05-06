@@ -26,6 +26,8 @@ Esta es la lista de contenidos incluidos hasta el momento:
 
       - [Apuntes C](/Unity_apuntes_project/Assets/Scripts/Variables/1_Creación_De_Variables/C_Declaración_Tipos/CreacionDeVariablesApuntesC.cs)
 
+      - [Ejercicios C](/Unity_apuntes_project/Assets/Scripts/Variables/1_Creación_De_Variables/C_Declaración_Tipos/CreacionDeVariablesEjerciciosC.cs)
+
     - [Declaración (nombres - reglas)](/Unity_apuntes_project/Assets/Scripts/Variables/1_Creación_De_Variables/D_Declaración_Nombres_Reglas)
 
       - [Apuntes D](/Unity_apuntes_project/Assets/Scripts/Variables/1_Creación_De_Variables/D_Declaración_Nombres_Reglas/CreacionDeVariablesApuntesD.cs)
@@ -35,6 +37,8 @@ Esta es la lista de contenidos incluidos hasta el momento:
     - [Declaración (nombres - recomendaciones)](/Unity_apuntes_project/Assets/Scripts/Variables/1_Creación_De_Variables/E_Declaración_Nombres_Recomendaciones)
 
       - [Apuntes E](/Unity_apuntes_project/Assets/Scripts/Variables/1_Creación_De_Variables/E_Declaración_Nombres_Recomendaciones/CreacionDeVariablesApuntesE.cs)
+
+      - [Ejercicios E](/Unity_apuntes_project/Assets/Scripts/Variables/1_Creación_De_Variables/E_Declaración_Nombres_Recomendaciones/CreacionDeVariablesEjerciciosE.cs)
 
     - [Inicialización](/Unity_apuntes_project/Assets/Scripts/Variables/1_Creación_De_Variables/F_Inicialización)
 
