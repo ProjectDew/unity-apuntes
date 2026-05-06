@@ -2,12 +2,12 @@
 
 using UnityEngine;
 
-public class CreacionDeVariablesEjerciciosC : MonoBehaviour
+public class CreacionDeVariablesEjerciciosD : MonoBehaviour
 {
 	// -------------------------------------------------- RECOMENDACIONES --------------------------------------------------
 
 
-	// ----- Antes de empezar, lee los apuntes sobre CREACIÓN DE VARIABLES (SECCIÓN C) -----
+	// ----- Antes de empezar, lee los apuntes sobre CREACIÓN DE VARIABLES (SECCIÓN D) -----
 
 
 	// Una vez que hayas empezado con los ejercicios, intenta avanzar todo lo que puedas sin mirar los apuntes ni usar ninguna herramienta adicional

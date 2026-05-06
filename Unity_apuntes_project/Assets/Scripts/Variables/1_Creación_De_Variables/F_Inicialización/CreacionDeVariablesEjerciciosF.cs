@@ -1,13 +1,13 @@
-#pragma warning disable
+﻿#pragma warning disable
 
 using UnityEngine;
 
-public class CreacionDeVariablesEjerciciosD : MonoBehaviour
+public class CreacionDeVariablesEjerciciosF : MonoBehaviour
 {
 	// -------------------------------------------------- RECOMENDACIONES --------------------------------------------------
 
 
-	// ----- Antes de empezar, lee los apuntes sobre CREACIÓN DE VARIABLES (SECCIÓN D) -----
+	// ----- Antes de empezar, lee los apuntes sobre CREACIÓN DE VARIABLES (SECCIÓN F) -----
 
 
 	// Una vez que hayas empezado con los ejercicios, intenta avanzar todo lo que puedas sin mirar los apuntes ni usar ninguna herramienta adicional

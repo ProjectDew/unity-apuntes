@@ -16,23 +16,31 @@ Esta es la lista de contenidos incluidos hasta el momento:
 
       - [Ejercicios A](/Unity_apuntes_project/Assets/Scripts/Variables/1_Creación_De_Variables/A_Introducción/CreacionDeVariablesEjerciciosA.cs)
 
-    - [Declaración (tipos)](/Unity_apuntes_project/Assets/Scripts/Variables/1_Creación_De_Variables/B_Declaración_Tipos)
+    - [Declaración (general)](/Unity_apuntes_project/Assets/Scripts/Variables/1_Creación_De_Variables/B_Declaración_General)
 
-      - [Apuntes B](/Unity_apuntes_project/Assets/Scripts/Variables/1_Creación_De_Variables/B_Declaración_Tipos/CreacionDeVariablesApuntesB.cs)
+      - [Apuntes B](/Unity_apuntes_project/Assets/Scripts/Variables/1_Creación_De_Variables/B_Declaración_General/CreacionDeVariablesApuntesB.cs)
 
-      - [Ejercicios B](/Unity_apuntes_project/Assets/Scripts/Variables/1_Creación_De_Variables/B_Declaración_Tipos/CreacionDeVariablesEjerciciosB.cs)
+      - [Ejercicios B](/Unity_apuntes_project/Assets/Scripts/Variables/1_Creación_De_Variables/B_Declaración_General/CreacionDeVariablesEjerciciosB.cs)
 
-    - [Declaración (nombres)](/Unity_apuntes_project/Assets/Scripts/Variables/1_Creación_De_Variables/C_Declaración_Nombres)
+    - [Declaración (tipos)](/Unity_apuntes_project/Assets/Scripts/Variables/1_Creación_De_Variables/C_Declaración_Tipos)
 
-      - [Apuntes C](/Unity_apuntes_project/Assets/Scripts/Variables/1_Creación_De_Variables/C_Declaración_Nombres/CreacionDeVariablesApuntesC.cs)
+      - [Apuntes C](/Unity_apuntes_project/Assets/Scripts/Variables/1_Creación_De_Variables/C_Declaración_Tipos/CreacionDeVariablesApuntesC.cs)
 
-      - [Ejercicios C](/Unity_apuntes_project/Assets/Scripts/Variables/1_Creación_De_Variables/C_Declaración_Nombres/CreacionDeVariablesEjerciciosC.cs)
+    - [Declaración (nombres - reglas)](/Unity_apuntes_project/Assets/Scripts/Variables/1_Creación_De_Variables/D_Declaración_Nombres_Reglas)
 
-    - [Inicialización](/Unity_apuntes_project/Assets/Scripts/Variables/1_Creación_De_Variables/D_Inicialización)
+      - [Apuntes D](/Unity_apuntes_project/Assets/Scripts/Variables/1_Creación_De_Variables/D_Declaración_Nombres_Reglas/CreacionDeVariablesApuntesD.cs)
 
-      - [Apuntes D](/Unity_apuntes_project/Assets/Scripts/Variables/1_Creación_De_Variables/D_Inicialización/CreacionDeVariablesApuntesD.cs)
+      - [Ejercicios D](/Unity_apuntes_project/Assets/Scripts/Variables/1_Creación_De_Variables/D_Declaración_Nombres_Reglas/CreacionDeVariablesEjerciciosD.cs)
 
-      - [Ejercicios D](/Unity_apuntes_project/Assets/Scripts/Variables/1_Creación_De_Variables/D_Inicialización/CreacionDeVariablesEjerciciosD.cs)
+    - [Declaración (nombres - recomendaciones)](/Unity_apuntes_project/Assets/Scripts/Variables/1_Creación_De_Variables/E_Declaración_Nombres_Recomendaciones)
+
+      - [Apuntes E](/Unity_apuntes_project/Assets/Scripts/Variables/1_Creación_De_Variables/E_Declaración_Nombres_Recomendaciones/CreacionDeVariablesApuntesE.cs)
+
+    - [Inicialización](/Unity_apuntes_project/Assets/Scripts/Variables/1_Creación_De_Variables/F_Inicialización)
+
+      - [Apuntes F](/Unity_apuntes_project/Assets/Scripts/Variables/1_Creación_De_Variables/F_Inicialización/CreacionDeVariablesApuntesF.cs)
+
+      - [Ejercicios F](/Unity_apuntes_project/Assets/Scripts/Variables/1_Creación_De_Variables/F_Inicialización/CreacionDeVariablesEjerciciosF.cs)
 
   - [Uso de variables](/Unity_apuntes_project/Assets/Scripts/Variables/2_Uso_De_Variables)
 
