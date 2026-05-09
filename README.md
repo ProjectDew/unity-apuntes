@@ -4,96 +4,138 @@ Este repositorio contiene apuntes con explicaciones, ejemplos y demostraciones q
 
 Esta es la lista de contenidos incluidos hasta el momento:
 
-- [Conceptos generales](/Unity_apuntes_project/Assets/Scripts/Conceptos_Generales/ConceptosGeneralesApuntes.cs)
+## [Conceptos generales](/Unity_apuntes_project/Assets/Scripts/Conceptos_Generales/ConceptosGeneralesApuntes.cs)
 
-- [Variables](/Unity_apuntes_project/Assets/Scripts/Variables)
+## [Variables](/Unity_apuntes_project/Assets/Scripts/Variables)
 
-  - [Declaración e inicialización de variables](/Unity_apuntes_project/Assets/Scripts/Variables/1_Creación_De_Variables)
+### [Declaración e inicialización de variables](/Unity_apuntes_project/Assets/Scripts/Variables/1_Creación_De_Variables)
 
-    - [Introducción](/Unity_apuntes_project/Assets/Scripts/Variables/1_Creación_De_Variables/A_Introducción)
+<details><summary>Introducción</summary>
 
-      - [Apuntes A](/Unity_apuntes_project/Assets/Scripts/Variables/1_Creación_De_Variables/A_Introducción/CreacionDeVariablesApuntesA.cs)
+- [Apuntes A](/Unity_apuntes_project/Assets/Scripts/Variables/1_Creación_De_Variables/A_Introducción/CreacionDeVariablesApuntesA.cs)
 
-      - [Ejercicios A](/Unity_apuntes_project/Assets/Scripts/Variables/1_Creación_De_Variables/A_Introducción/CreacionDeVariablesEjerciciosA.cs)
+- [Ejercicios A](/Unity_apuntes_project/Assets/Scripts/Variables/1_Creación_De_Variables/A_Introducción/CreacionDeVariablesEjerciciosA.cs)
 
-    - [Declaración (general)](/Unity_apuntes_project/Assets/Scripts/Variables/1_Creación_De_Variables/B_Declaración_General)
+</details>
 
-      - [Apuntes B](/Unity_apuntes_project/Assets/Scripts/Variables/1_Creación_De_Variables/B_Declaración_General/CreacionDeVariablesApuntesB.cs)
+<details><summary>Declaración (general)</summary>
 
-      - [Ejercicios B](/Unity_apuntes_project/Assets/Scripts/Variables/1_Creación_De_Variables/B_Declaración_General/CreacionDeVariablesEjerciciosB.cs)
+- [Apuntes B](/Unity_apuntes_project/Assets/Scripts/Variables/1_Creación_De_Variables/B_Declaración_General/CreacionDeVariablesApuntesB.cs)
 
-    - [Declaración (tipos)](/Unity_apuntes_project/Assets/Scripts/Variables/1_Creación_De_Variables/C_Declaración_Tipos)
+- [Ejercicios B](/Unity_apuntes_project/Assets/Scripts/Variables/1_Creación_De_Variables/B_Declaración_General/CreacionDeVariablesEjerciciosB.cs)
 
-      - [Apuntes C](/Unity_apuntes_project/Assets/Scripts/Variables/1_Creación_De_Variables/C_Declaración_Tipos/CreacionDeVariablesApuntesC.cs)
+</details>
 
-      - [Ejercicios C](/Unity_apuntes_project/Assets/Scripts/Variables/1_Creación_De_Variables/C_Declaración_Tipos/CreacionDeVariablesEjerciciosC.cs)
+<details><summary>Declaración (tipos)</summary>
 
-    - [Declaración (nombres - reglas)](/Unity_apuntes_project/Assets/Scripts/Variables/1_Creación_De_Variables/D_Declaración_Nombres_Reglas)
+- [Apuntes C](/Unity_apuntes_project/Assets/Scripts/Variables/1_Creación_De_Variables/C_Declaración_Tipos/CreacionDeVariablesApuntesC.cs)
 
-      - [Apuntes D](/Unity_apuntes_project/Assets/Scripts/Variables/1_Creación_De_Variables/D_Declaración_Nombres_Reglas/CreacionDeVariablesApuntesD.cs)
+- [Ejercicios C](/Unity_apuntes_project/Assets/Scripts/Variables/1_Creación_De_Variables/C_Declaración_Tipos/CreacionDeVariablesEjerciciosC.cs)
 
-      - [Ejercicios D](/Unity_apuntes_project/Assets/Scripts/Variables/1_Creación_De_Variables/D_Declaración_Nombres_Reglas/CreacionDeVariablesEjerciciosD.cs)
+</details>
 
-    - [Declaración (nombres - recomendaciones)](/Unity_apuntes_project/Assets/Scripts/Variables/1_Creación_De_Variables/E_Declaración_Nombres_Recomendaciones)
+<details><summary>Declaración (nombres - reglas)</summary>
 
-      - [Apuntes E](/Unity_apuntes_project/Assets/Scripts/Variables/1_Creación_De_Variables/E_Declaración_Nombres_Recomendaciones/CreacionDeVariablesApuntesE.cs)
+- [Apuntes D](/Unity_apuntes_project/Assets/Scripts/Variables/1_Creación_De_Variables/D_Declaración_Nombres_Reglas/CreacionDeVariablesApuntesD.cs)
 
-      - [Ejercicios E](/Unity_apuntes_project/Assets/Scripts/Variables/1_Creación_De_Variables/E_Declaración_Nombres_Recomendaciones/CreacionDeVariablesEjerciciosE.cs)
+- [Ejercicios D](/Unity_apuntes_project/Assets/Scripts/Variables/1_Creación_De_Variables/D_Declaración_Nombres_Reglas/CreacionDeVariablesEjerciciosD.cs)
 
-    - [Inicialización](/Unity_apuntes_project/Assets/Scripts/Variables/1_Creación_De_Variables/F_Inicialización)
+</details>
 
-      - [Apuntes F](/Unity_apuntes_project/Assets/Scripts/Variables/1_Creación_De_Variables/F_Inicialización/CreacionDeVariablesApuntesF.cs)
+<details><summary>Declaración (nombres - recomendaciones)</summary>
 
-      - [Ejercicios F](/Unity_apuntes_project/Assets/Scripts/Variables/1_Creación_De_Variables/F_Inicialización/CreacionDeVariablesEjerciciosF.cs)
+- [Apuntes E](/Unity_apuntes_project/Assets/Scripts/Variables/1_Creación_De_Variables/E_Declaración_Nombres_Recomendaciones/CreacionDeVariablesApuntesE.cs)
 
-  - [Uso de variables](/Unity_apuntes_project/Assets/Scripts/Variables/2_Uso_De_Variables)
+- [Ejercicios E](/Unity_apuntes_project/Assets/Scripts/Variables/1_Creación_De_Variables/E_Declaración_Nombres_Recomendaciones/CreacionDeVariablesEjerciciosE.cs)
 
-    - [Apuntes](/Unity_apuntes_project/Assets/Scripts/Variables/2_Uso_De_Variables/UsoDeVariablesApuntes.cs)
+</details>
 
-    - [Ejercicios A](/Unity_apuntes_project/Assets/Scripts/Variables/2_Uso_De_Variables/UsoDeVariablesEjerciciosA.cs)
+<details><summary>Inicialización</summary>
 
-    - [Ejercicios B](/Unity_apuntes_project/Assets/Scripts/Variables/2_Uso_De_Variables/UsoDeVariablesEjerciciosB.cs)
+- [Apuntes F](/Unity_apuntes_project/Assets/Scripts/Variables/1_Creación_De_Variables/F_Inicialización/CreacionDeVariablesApuntesF.cs)
 
-    - [Ejercicios C](/Unity_apuntes_project/Assets/Scripts/Variables/2_Uso_De_Variables/UsoDeVariablesEjerciciosC.cs)
+- [Ejercicios F](/Unity_apuntes_project/Assets/Scripts/Variables/1_Creación_De_Variables/F_Inicialización/CreacionDeVariablesEjerciciosF.cs)
 
-    - [Ejercicios D](/Unity_apuntes_project/Assets/Scripts/Variables/2_Uso_De_Variables/UsoDeVariablesEjerciciosD.cs)
+</details>
 
-    - [Ejercicios E](/Unity_apuntes_project/Assets/Scripts/Variables/2_Uso_De_Variables/UsoDeVariablesEjerciciosE.cs)
+### [Uso de variables](/Unity_apuntes_project/Assets/Scripts/Variables/2_Uso_De_Variables)
 
-    - [Ejercicios F](/Unity_apuntes_project/Assets/Scripts/Variables/2_Uso_De_Variables/UsoDeVariablesEjerciciosF.cs)
+<details><summary>Introducción</summary>
 
-    - [Ejercicios G](/Unity_apuntes_project/Assets/Scripts/Variables/2_Uso_De_Variables/UsoDeVariablesEjerciciosG.cs)
+- [Apuntes A](/Unity_apuntes_project/Assets/Scripts/Variables/2_Uso_De_Variables/A_Introducción/UsoDeVariablesApuntesA.cs)
 
-  - [Operaciones con variables](/Unity_apuntes_project/Assets/Scripts/Variables/3_Operaciones_Con_Variables)
+</details>
 
-    - [Apuntes](/Unity_apuntes_project/Assets/Scripts/Variables/3_Operaciones_Con_Variables/OperacionesConVariablesApuntes.cs)
+<details><summary>Valores por defecto (en clases)</summary>
 
-    - [Ejercicios A](/Unity_apuntes_project/Assets/Scripts/Variables/3_Operaciones_Con_Variables/OperacionesConVariablesEjerciciosA.cs)
+- [Apuntes B](/Unity_apuntes_project/Assets/Scripts/Variables/2_Uso_De_Variables/B_Valores_Por_Defecto_Clases/UsoDeVariablesApuntesB.cs)
 
-    - [Ejercicios B](/Unity_apuntes_project/Assets/Scripts/Variables/3_Operaciones_Con_Variables/OperacionesConVariablesEjerciciosB.cs)
+</details>
 
-    - [Ejercicios C](/Unity_apuntes_project/Assets/Scripts/Variables/3_Operaciones_Con_Variables/OperacionesConVariablesEjerciciosC.cs)
+<details><summary>Valores por defecto (en métodos)</summary>
 
-    - [Ejercicios D](/Unity_apuntes_project/Assets/Scripts/Variables/3_Operaciones_Con_Variables/OperacionesConVariablesEjerciciosD.cs)
+- [Apuntes C](/Unity_apuntes_project/Assets/Scripts/Variables/2_Uso_De_Variables/C_Valores_Por_Defecto_Metodos/UsoDeVariablesApuntesC.cs)
 
-    - [Ejercicios E](/Unity_apuntes_project/Assets/Scripts/Variables/3_Operaciones_Con_Variables/OperacionesConVariablesEjerciciosE.cs)
+</details>
 
-    - [Ejercicios F](/Unity_apuntes_project/Assets/Scripts/Variables/3_Operaciones_Con_Variables/OperacionesConVariablesEjerciciosF.cs)
+<details><summary>Campos y variables</summary>
 
-    - [Ejercicios G](/Unity_apuntes_project/Assets/Scripts/Variables/3_Operaciones_Con_Variables/OperacionesConVariablesEjerciciosG.cs)
+- [Apuntes D](/Unity_apuntes_project/Assets/Scripts/Variables/2_Uso_De_Variables/D_Campos_Y_Variables/UsoDeVariablesApuntesD.cs)
 
-    - [Ejercicios H](/Unity_apuntes_project/Assets/Scripts/Variables/3_Operaciones_Con_Variables/OperacionesConVariablesEjerciciosH.cs)
+</details>
 
-- [Bucles](/Unity_apuntes_project/Assets/Scripts/Bucles/BuclesApuntes.cs)
+<details><summary>Copia de datos</summary>
 
-- [Arrays](/Unity_apuntes_project/Assets/Scripts/Arrays/ArraysApuntes.cs)
+- [Apuntes E](/Unity_apuntes_project/Assets/Scripts/Variables/2_Uso_De_Variables/E_Copia_De_Datos/UsoDeVariablesApuntesE.cs)
 
-- [Vectores](/Unity_apuntes_project/Assets/Scripts/Vectores/VectoresApuntesVisuales.pdf)
+</details>
 
-- [Parámetros de salida (out)](/Unity_apuntes_project/Assets/Scripts/Parámetros_Out/ParametrosOutApuntes.cs)
+<details><summary>Intercambio de datos</summary>
 
-- [Palabra clave *static*](/Unity_apuntes_project/Assets/Scripts/Static/StaticApuntes.cs)
+- [Apuntes F](/Unity_apuntes_project/Assets/Scripts/Variables/2_Uso_De_Variables/F_Intercambio_De_Datos/UsoDeVariablesApuntesF.cs)
 
-- [Comunicación entre clases](/Unity_apuntes_project/Assets/Scripts/Comunicación_Entre_Clases/ComunicacionEntreClasesApuntes.cs)
+</details>
 
-- [Corrutinas](/Unity_apuntes_project/Assets/Scripts/Corrutinas/CorrutinasApuntes.cs)
+<details><summary>Acceso a características y funcionalidades</summary>
+
+- [Apuntes G](/Unity_apuntes_project/Assets/Scripts/Variables/2_Uso_De_Variables/G_Acceso_Características_Funcionalidades/UsoDeVariablesApuntesG.cs)
+
+</details>
+
+### [Operaciones con variables](/Unity_apuntes_project/Assets/Scripts/Variables/3_Operaciones_Con_Variables)
+
+<details><summary>Contenido</summary>
+
+- [Apuntes](/Unity_apuntes_project/Assets/Scripts/Variables/3_Operaciones_Con_Variables/OperacionesConVariablesApuntes.cs)
+
+- [Ejercicios A](/Unity_apuntes_project/Assets/Scripts/Variables/3_Operaciones_Con_Variables/OperacionesConVariablesEjerciciosA.cs)
+
+- [Ejercicios B](/Unity_apuntes_project/Assets/Scripts/Variables/3_Operaciones_Con_Variables/OperacionesConVariablesEjerciciosB.cs)
+
+- [Ejercicios C](/Unity_apuntes_project/Assets/Scripts/Variables/3_Operaciones_Con_Variables/OperacionesConVariablesEjerciciosC.cs)
+
+- [Ejercicios D](/Unity_apuntes_project/Assets/Scripts/Variables/3_Operaciones_Con_Variables/OperacionesConVariablesEjerciciosD.cs)
+
+- [Ejercicios E](/Unity_apuntes_project/Assets/Scripts/Variables/3_Operaciones_Con_Variables/OperacionesConVariablesEjerciciosE.cs)
+
+- [Ejercicios F](/Unity_apuntes_project/Assets/Scripts/Variables/3_Operaciones_Con_Variables/OperacionesConVariablesEjerciciosF.cs)
+
+- [Ejercicios G](/Unity_apuntes_project/Assets/Scripts/Variables/3_Operaciones_Con_Variables/OperacionesConVariablesEjerciciosG.cs)
+
+- [Ejercicios H](/Unity_apuntes_project/Assets/Scripts/Variables/3_Operaciones_Con_Variables/OperacionesConVariablesEjerciciosH.cs)
+
+</details>
+
+## [Bucles](/Unity_apuntes_project/Assets/Scripts/Bucles/BuclesApuntes.cs)
+
+## [Arrays](/Unity_apuntes_project/Assets/Scripts/Arrays/ArraysApuntes.cs)
+
+## [Vectores](/Unity_apuntes_project/Assets/Scripts/Vectores/VectoresApuntesVisuales.pdf)
+
+## [Parámetros de salida (out)](/Unity_apuntes_project/Assets/Scripts/Parámetros_Out/ParametrosOutApuntes.cs)
+
+## [Palabra clave *static*](/Unity_apuntes_project/Assets/Scripts/Static/StaticApuntes.cs)
+
+## [Comunicación entre clases](/Unity_apuntes_project/Assets/Scripts/Comunicación_Entre_Clases/ComunicacionEntreClasesApuntes.cs)
+
+## [Corrutinas](/Unity_apuntes_project/Assets/Scripts/Corrutinas/CorrutinasApuntes.cs)
