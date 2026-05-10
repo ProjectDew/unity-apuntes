@@ -36,7 +36,7 @@ public class CreacionDeVariablesApuntesD : MonoBehaviour
 	string otroTexto;		// Correcto
 
 	//bool string;			// ¡Error! Hay ciertas palabras especiales que no pueden usarse como nombres de variables
-	bool esPublico;			// Correcto
+	bool esString;			// Correcto
 
 
 	// ----- Ahora puedes realizar los EJERCICIOS D de creación de variables -----
